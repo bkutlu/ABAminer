@@ -1,9 +1,17 @@
 Package: ABAminer
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
-LazyData: TRUE
+Title: Query Allen Institute for Brain Science atlas resources
+Version: 0.0.0.9000
+Authors@R: "Burak Kutlu <bkutluisb@gmail.com> [aut,cre]"
+Description: Allen Brain Atlas (ABA) is a project within the
+    Allen Institute for Brain Science that allows access to
+    broad sets of gene expression that are mapped neuroanatomically
+    to different brain subregions. ABAminer serves is a tool to
+    query brain subregion-specific genes in the Mouse ABA.
+Depends: R (>= 3.3.2)
+Imports:
+Suggests:
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+URL: http://github.com/bkutlu/ABAminer
+BugReports: http://github.com/bkutlu/ABAminer/issues
